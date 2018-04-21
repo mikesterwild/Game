@@ -8,8 +8,7 @@ room_list= ['Attic', 'Basement', 'Kitchen', 'Bedroom', 'Bathroom']
 list_of_monsters = ['Big', 'Small']
 gem_count = 100
 health = 100
-bigvalues = [ 12, 43, 58, 23, 46, 47,33,43,43,54,54]
-smallvalues =[ 12,23,34,11,7,4,6,5,3,5,6,5,4,23,43,23,23,23,12,21,21,21,31]
+
 
 #welcome screen players see
 def Welcome_screen():
@@ -92,7 +91,7 @@ def what_room():
         print "\n..."
         time.sleep(1)
         print "You head towards the %s" % user_room
-        time.sleep(2)
+        time.sleep(2k)
         print "..."
         time.sleep(1)
 
