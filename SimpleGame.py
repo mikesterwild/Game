@@ -91,7 +91,7 @@ def what_room():
         print "\n..."
         time.sleep(1)
         print "You head towards the %s" % user_room
-        time.sleep(2k)
+        time.sleep(2)
         print "..."
         time.sleep(1)
 
